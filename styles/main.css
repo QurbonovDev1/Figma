@@ -1,0 +1,817 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      list-style: none;
+      text-decoration: none;
+}
+header {
+      width: 1440px;
+      height: 80px;
+}
+header .navbar {
+      display: flex;
+      align-items: center;
+}
+header .navbar .logo1 {
+      padding-left: 32px;
+      padding-top: 20px;
+}
+header .navbar .ruyxat {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 276px;
+      padding-top: 28px;
+      gap: 48px;
+}
+header .navbar .ruyxat li a {
+      color: rgba(18, 16, 12, 0.70);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+}
+header .navbar .btn {
+      width: 80px;
+      height: 32px;
+      border-radius: 12px;
+      background: #12100C;
+      margin-left: 284px;
+      margin-top: 24px;
+}
+header .navbar .login {
+      color: #F9F9F9;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px; /* 142.857% */
+}
+section {
+      width: 1310px;
+}
+section .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.text3  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+}
+section .wrapper .div-one .tittle {
+      color: #12100C;
+      font-size: 80px;
+      font-weight: 700;
+      line-height: 88px; /* 110% */
+      padding-left: 65px;
+      padding-top: 154px;
+
+}
+section .wrapper .div-one .text {
+      color: rgba(18, 16, 12, 0.70);
+      font-size: 23px;
+      font-weight: 400;
+      line-height: 31.92px; /* 138.783% */
+      width: 460px;
+      padding-left: 65px;
+      margin-top: 38px;
+}
+section .wrapper .div-one .now {
+      display: flex;
+      align-items: center;
+}
+section .wrapper .div-one .now .btn2 {
+      width: 160px;
+      height: 46px;
+      border-radius: 16px;
+      background: #FFAE33;
+      box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+      border: 1px solid #FFAE33;
+      margin-left: 65px;
+      margin-top: 48px;
+}
+section .wrapper .div-one .now .try {
+      color: #12100C;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 22.5px; /* 125% */ 
+}
+section .wrapper .div-one .now .text2 {
+      color: rgba(18, 16, 12, 0.70);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+      margin-left: 24px;
+      margin-top: 48px;
+}
+section .wrapper .div-one .logo2 {
+      width: 29px;
+      height: 29px;
+      margin-left: 73px;
+      margin-top: 18px;
+}
+section .wrapper .div-one .logo3 {
+      width: 29px;
+      height: 29px;
+      margin-left: 28px;
+      margin-top: 18px;
+}
+section .wrapper .div-one .logo4 {
+      width: 29px;
+      height: 29px;
+      margin-left: 29px;
+      margin-top: 18px;
+}
+section .wrapper .div-two {
+      width: 630px;
+      background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+      margin-left: 120px;
+}
+section .wrapper2 {
+      width: 1310px;
+      padding-top: 18px;
+}
+section .wrapper2 .tittle2 {
+      padding-left: 200px;
+      padding-top: 158px;
+      color: #12100C;
+      text-align: center;
+      font-size: 54px;
+      font-weight: 700;
+      line-height: 63.72px; /* 118% */
+}
+section .wrapper2 .text3 {
+      color: #999795;
+      text-align: center;
+      font-size: 54px;
+      font-weight: 400;
+      line-height: 63.72px; /* 118% */
+      text-decoration-line: strikethrough;
+      padding-left: 181px;
+       
+}
+section .wrapper2 .tittle3 {
+      color: #12100C;
+      text-align: center;
+      font-size: 54px;
+      font-weight: 700;
+      line-height: 63.72px; /* 118% */
+      padding-left: 200px;
+      padding-bottom: 161px;
+}
+section {
+      width: 1310px;
+}
+section .wrapper3 {
+      padding-left: 65px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+section .wrapper3 .think .tittle4 {
+      color: #12100C;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40px; /* 125% */
+      padding-top: 216px;
+}
+section .wrapper3 .think .text4 {
+      color: rgba(18, 16, 12, 0.70);
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 31.92px; /* 133% */
+      padding-top: 8px;
+}
+section .wrapper3 .think .btn3 {
+      width: 162px;
+      height: 32px;
+      border-radius: 10.5px;
+      background: #FFAE33;
+      box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+      border: 1px solid #FFAE33;
+      margin-top: 151px;
+      margin-bottom: 217px;
+}
+section .wrapper3 .think .more {
+      color: #12100C;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16px; /* 114.286% */
+}
+section .wrapper3 .think .btn4 {
+      width: 146px;
+      height: 32px;
+      border-radius: 10.5px;
+      background: #FFB0AE;
+      box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+      border: 1px solid #FFB0AE;
+      margin-left: 16px;
+      margin-bottom: 217px;
+}
+section .wrapper3 .think .document {
+      color: #12100C;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16px; /* 114.286% */
+}
+section .wrapper3 .img {
+      width: 590px;
+      height: 472px;
+      border-radius: 20px;
+      background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+      box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
+      margin-left: 66px;
+      margin-bottom: 160px;
+}
+section .wrapper4 {
+      padding-left: 85px;
+}
+section .wrapper4 .tittle5 {
+      color: #12100C;
+      text-align: center;
+      font-size: 54px;
+      font-weight: 700;
+      line-height: 71.82px; /* 133% */
+      padding-left: 251px;
+      padding-top: 177px;
+      padding-bottom: 47px;
+}
+section .wrapper4 .img2 {
+      width: 1269px;
+      height: 821px;
+}
+section .wrapper4 .text5 {
+      color: rgba(18, 16, 12, 0.70);
+      text-align: center;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 31.92px; /* 133% */
+      width: 900px;
+      margin-left: 216px;
+      padding-top: 49px;
+}
+section .wrapper4 .btn5 {
+      width: 207px;
+      height: 47px;
+      border-radius: 9px;
+      background: #FFF;
+      box-shadow: 0px 0.5px 2px 0px rgba(0, 0, 0, 0.10);
+      margin-left: 444px;
+      margin-top: 45px;
+      border: 1px solid #FFF;
+}
+section .wrapper4 .img3 {
+      width: 24px;
+      height: 24px;
+      margin-left: 11px;
+      margin-top: 11px;
+}
+section .wrapper4 .chrome {
+      color: #12100C;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 31.86px; /* 177% */
+      margin-bottom: 8px;
+}
+section .wrapper4 .btn6 {
+      width: 199px;
+      height: 47px;
+      border-radius: 9px;
+      background: #FFF;
+      box-shadow: 0px 0.5px 2px 0px rgba(0, 0, 0, 0.10);
+      margin-left: 16px;
+      border: 1px solid #FFF;
+}
+section .wrapper4 .img4 {
+      width: 24px;
+      height: 24px;
+}
+section .wrapper4 .chrome2 {
+      color: #12100C;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 31.86px; /* 177% */ 
+}
+section {
+      width: 1310px;
+}
+section .wrapper5 {
+      padding-left: 65px;
+      padding-top: 176px;    
+}
+section .wrapper5 .used {
+      color: #12100C;
+      text-align: center;
+      font-size: 54px;
+      font-weight: 700;
+      line-height: 63.72px; /* 118% */
+}
+section .wrapper5 .divs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+section .wrapper5 .divs .div1 {
+      width: 384px;
+      height: 248px;
+      border-radius: 16px;
+      background: #FFF;
+}
+section .wrapper5 .divs .div1 .text6 {
+      color: #12100C;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+      padding-top: 24px;
+}
+section .wrapper5 .divs .div1 .text7 {
+      color: #12100C;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+      padding-top: 10px;
+      
+}
+section .wrapper5 .divs .div1 .img5 {
+      width: 48px;
+      height: 48px;
+      border-radius: 9999px;
+      background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+      margin-top: 14px;   
+}
+section .wrapper5 .divs .div1 .ben {
+      color: #12100C;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px; /* 150% */
+      margin-left: 12px;
+}
+section .wrapper5 .divs .div1 .text8 {
+      color: #12100C;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+      padding-left: 12px;
+      padding-top: 8px;
+}
+section .wrapper5 .divs .div1 .the {
+      color: #12100C;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px; /* 150% */
+}
+section .wrapper5 .divs .div2 {
+      width: 384px;
+      height: 272px;
+      border-radius: 16px;
+      background: #FFF;
+      margin-left: 24px;
+}
+section .wrapper5 .divs .div2 .text9 {
+      color: #12100C;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+      padding-left: 24px;
+      padding-top: 26px;
+      width: 322px;
+}
+section .wrapper5 .divs .div2 .text10 {
+      color: #12100C;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+      width: 325px;
+      padding-left: 24px;
+      padding-top: 8px;
+}
+section .wrapper5 .divs .div2 .img6 {
+      width: 48px;
+      height: 48px;
+      border-radius: 9999px;
+      background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+      margin-left: 24px;
+      margin-top: 14px;
+}
+section .wrapper5 .divs .div2 .michael {
+      color: #12100C;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px; /* 150% */
+      padding-left: 12px;
+
+}
+section .wrapper5 .divs .div2 .text11 {
+      color: #12100C;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+      padding-left: 12px;
+      padding-top: 8px;
+}
+section .wrapper5 .divs .div2 .git {
+      color: #12100C;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px; /* 150% */
+}
+section .wrapper5 .divs .div3 {
+      width: 384px;
+      height: 264px;
+      border-radius: 16px;
+      background: #FFF;
+}
+section .wrapper5 .divs .div3 .text12 {
+      color: #12100C;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+      padding-left: 24px;
+      padding-top: 26px;
+}
+section .wrapper5 .divs .div3 .img7 {
+      width: 48px;
+      height: 48px;
+      border-radius: 9999px;
+      background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+      margin-left: 24;
+      margin-top: 14px;
+}
+section .wrapper5 .divs .div3 .volz {
+      color: #12100C;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 24px; /* 160% */
+      padding-left: 12px;
+      padding-top: 14px;
+}
+section .wrapper5 .divs .div3 .text13 {
+      color: #12100C;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+}
+section .wrapper5 .divs .div3 .pro {
+      color: #12100C;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px; /* 150% */
+}
+.btn10 {
+      width: 530px;
+      height: 56px;
+      border-radius: 12px;
+      background: #F9F9F9;
+}
+section .general {
+      width: 1310px;
+      margin-top: 200px;
+}
+section .general .get {
+      color: #12100C;
+      text-align: center;
+      font-size: 54px;
+      font-weight: 700;
+      line-height: 71.82px; /* 133% */
+}
+section .general .two-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+section .general .table {
+      width: 642px;
+      border-radius: 20px;
+      background: #FFF;
+      margin-left: 65px;
+      margin-top: 48px;
+}
+section .general .table .name {
+      color: #12100C;
+      text-align: center;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40px; /* 125% */
+      margin-left: 155px;
+      margin-top: 56px;
+}
+section .general .table .text14 {
+      color: rgba(18, 16, 12, 0.70);
+      text-align: center;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 31.92px; /* 133% */
+      margin-left: 85px;
+      margin-top: 8px;
+}
+section .general .table .btn7 {
+      width: 262px;
+      height: 46px;
+      border-radius: 12px;
+      background: #FC6D26;
+      box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+      border: 1px solid #FC6D26;
+      margin-left: 190px;
+      margin-top: 62px;     
+}
+section .general .table .but1 {
+      color: #FFF;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16px; /* 114.286% */
+      margin-left: 16px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+}
+section .general .table .imgs {
+      width: 28px;
+      height: 28px;
+      margin-left: 33px;
+      margin-top: 9px;
+}
+section .general .table .btn8 {
+      width: 262px;
+      height: 46px;
+      border-radius: 12px;
+      background: #000;
+      box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+      border: 1px solid #000;
+      margin-left: 190px;
+      margin-top: 16px;
+}
+section .general .table .imgs2 {
+      width: 28px;
+      height: 28px;
+      margin-left: 33px;
+      margin-top: 9px;
+}
+section .general .table .but2 {
+      color: #FFF;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16px; /* 114.286% */
+      margin-left: 16px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+}
+section .general .table .btn9 {
+      width: 262px;
+      height: 46px;
+      border-radius: 12px;
+      background: #2684FF;
+      box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+      border: 1px solid #2684FF;
+      margin-left: 190px;
+      margin-top: 16px;
+}
+section .general .table .imgs3 {
+      width: 28px;
+      height: 28px;
+      margin-left: 33px;
+      margin-top: 9px;
+}
+section .general .table .but3 {
+      color: #FFF;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16px; /* 114.286% */
+      align-items: center;
+      display: flex;
+      justify-content: center;
+}
+section .general .table .text15 {
+      color: rgba(18, 16, 12, 0.70);
+      text-align: center;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 31.92px; /* 133% */
+      margin-left: 78px;
+      margin-top: 64px;
+}
+section .general .table .btn10 {
+      width: 151px;
+      height: 31px;
+      border-radius: 12px;
+      background: #FFE4BC;
+      border: 1px solid #FFE4BC;
+      margin-left: 245px;
+      margin-top: 10px;
+      margin-bottom: 86px;
+}
+section .general .table2 {
+      width: 642px;
+      border-radius: 20px;
+      background: #FFF;
+      margin-left: 26px;
+}
+section .general .table2 .name2 {
+      color: #12100C;
+      text-align: center;
+      font-size: 32px;;
+      font-weight: 700;
+      line-height: 40px; /* 125% */
+      padding-left: 98px;
+      padding-top: 56px;
+}
+section .general .table2 .text16 {
+      color: rgba(18, 16, 12, 0.70);
+      text-align: center;
+      font-size: 23px;
+      font-weight: 400;
+      line-height: 31.92px; /* 138.783% */
+      padding-top: 7px;
+}
+section .general .table2 .btn11 {
+      width: 530px;
+      height: 56px;
+      border-radius: 12px;
+      background: #F9F9F9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 56px;
+      margin-top: 32px;
+      border: 1px solid #F9F9F9;
+}
+section .general .table2 .script {
+      width: 27px;
+      height: 27px;
+}
+section .general .table2 .node {
+      color: rgba(18, 16, 12, 0.70);
+      text-align: center;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 20px; /* 100% */
+      padding-left: 16px;
+}
+section .general .table2 .btn12 {
+      width: 530px;
+      height: 56px;
+      border-radius: 12px;
+      background: #F9F9F9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 56px;
+      margin-top: 12px;
+      border: 1px solid #F9F9F9;
+}
+section .general .table2 .pyton {
+      width: 27px;
+      height: 27px;
+}
+section .general .table2 .pyton2 {
+      color: rgba(18, 16, 12, 0.70);
+      text-align: center;;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 20px; /* 100% */
+      padding-left: 16px;
+}
+section .general .table2 .btn13 {
+      width: 530px;
+      height: 56px;
+      border-radius: 12px;
+      background: #F9F9F9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 56px;
+      margin-top: 12px;
+      border: 1px solid #F9F9F9;
+}
+section .general .table2 .go {
+      width: 27px;
+      height: 27px;
+}
+section .general .table2 .go2 {
+      color: rgba(18, 16, 12, 0.70);
+      text-align: center;;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 20px; /* 100% */
+      padding-left: 16px;
+}
+section .general .table2 .btn14 {
+      width: 530px;
+      height: 56px;
+      border-radius: 12px;
+      background: #F9F9F9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 56px;
+      margin-top: 12px;
+      border: 1px solid #F9F9F9;
+}
+section .general .table2 .rust {
+      width: 27px;
+      height: 27px;
+}
+section .general .table2 .rust2 {
+      color: rgba(18, 16, 12, 0.70);
+      text-align: center;;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 20px; /* 100% */
+      padding-left: 16px;  
+}
+section .general .table2 .btn15 {
+      width: 530px;
+      height: 56px;
+      border-radius: 12px;
+      background: #F9F9F9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 56px;
+      margin-top: 12px; 
+      border: 1px solid #F9F9F9;
+}
+section .general .table2 .java {
+      width: 27px;
+      height: 27px;
+}
+section .general .table2 .java2 {
+      color: rgba(18, 16, 12, 0.70);
+      text-align: center;;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 20px; /* 100% */
+      padding-left: 16px;  
+}
+section .general .table2 .btn16 {
+      width: 530px;
+      height: 56px;
+      border-radius: 12px;
+      background: #F9F9F9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 56px;
+      margin-top: 12px; 
+      margin-bottom: 10px;
+      border: 1px solid #F9F9F9;
+}
+section .general .table2 .svelte {
+      width: 27px;
+      height: 27px;
+}
+section .general .table2 .svelte2 {
+      color: rgba(18, 16, 12, 0.70);
+      text-align: center;;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 20px; /* 100% */
+      padding-left: 16px;    
+}
+footer {
+      width: 1440px;
+      height: 48px;
+      background: #ECE7E5;
+}
+footer .foot {
+      display: flex;
+      align-items: center;
+      margin-left: 16px;
+}
+footer .foot .text17 {
+      color: rgba(18, 16, 12, 0.70);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+      margin-top: 12px;
+}
+footer .foot .btn17 {
+      width: 163px;
+      height: 32px;
+      border-radius: 8px;
+      background: #F9F9F9;
+      margin-left: 600px;
+      margin-top: 8px;
+      border: 1px solid #F9F9F9;
+}
+footer .foot .cook {
+      color: rgba(18, 16, 12, 0.70);
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+}
